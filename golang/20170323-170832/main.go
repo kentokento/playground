@@ -94,6 +94,7 @@ func mainTest6() {
 	//idString = strings.Trim(fmt.Sprint(m2), "[]")
 	idString = string(m2)
 	fmt.Println(idString)
+	fmt.Println(strings.TrimRight(string(m2), ","))
 }
 
 func main() {
